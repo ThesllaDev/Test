@@ -1,12 +1,13 @@
-$Gray: #EDF1F2;
-$Dark-Gray: #E1E7E9;
-$Light-Gray: #F4F6F7;
-$White: #FFF;
-$Black-Text: #5D6C72;
-$Gray-Text: #8499A2;
-
 * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    line-height: 1.5;
+}
+
+@import "standardStyles";
+@import "components/lateral-menu/LateralMenu";

@@ -1,15 +1,3 @@
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
-}
-
-body {
-  font-family: 'Red Hat Display', sans-serif;
-  line-height: 1.5;
-}
-
 .lateral__menu {
   background-color: #edf1f2;
   color: #5d6c72;
@@ -125,4 +113,4 @@ body {
 .fa-arrow-left:hover {
   background-color: #e1e7e9;
 }
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=lateralMenu.css.map */

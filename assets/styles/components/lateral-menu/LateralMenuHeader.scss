@@ -1,0 +1,83 @@
+@import "../../../styles/standardStyles";
+
+$color-Progress: #2AC29B;
+$size: 3.125em;
+@mixin circle($size) {
+    border-radius: 50%;
+    content: "";
+    height: $size;
+    left: calc(50% - #{$size/2});
+    position: absolute;
+    top: calc(50% - #{$size/2});
+    width: $size;
+}
+
+.lateral__menu__header {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.progress__bar {
+    border-radius: 50%;
+    background-color: $color-Progress;
+    height: $size;
+    position: relative;
+    width: $size;
+    &.gt-50 {
+        background-color: $Dark-Gray;
+    }
+}
+.bar__progress {
+    @include circle($size);
+    clip: rect(0, $size, $size, #{$size/2});
+    .bar__progress--fill {
+        @include circle($size);
+        background: $Dark-Gray;
+        clip: rect(0, #{$size/2}, $size, 0);
+        transform: rotate(60deg);
+    }
+    .gt-50 & {
+        clip: rect(0, #{$size/2}, $size, 0);
+        .bar__progress--fill {
+            background: $color-Progress;
+            clip: rect(0, $size, $size, #{$size/2});
+        }
+    }
+}
+.progress__bar--img {
+    @include circle(#{$size/1.15});
+    background: $White;
+    display: table;
+    text-align: center;
+    i {
+        color: $Black-Text;
+        font-size: 2em;
+    }
+}
+.progress__bar--img--wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.user__infos {
+    margin: 0 $gap-small;
+    .user__infos__title {
+        font-size: $gap-medium;
+        font-weight: 500;
+    }
+    .user__infos__subtitle {
+        color: $Gray-Text;
+        font-size: 0.8125em;
+        font-weight: 400;
+    }
+}
+
+.fa-arrow-left {
+    align-self: flex-start;
+    margin: $gap-small 0 0 $gap-large;
+    cursor: pointer;
+    &:hover {
+        background-color: $Dark-Gray;
+    }
+}
