@@ -1,0 +1,58 @@
+@import "../../../styles/standardStyles";
+
+.side__nav {
+    margin-top: $gap-small;
+}
+
+.side__nav__list {
+    font-weight: 500;
+    list-style: none;
+}
+
+.side__nav__list__items,
+input[type="search"] {
+    border-radius: $gap-small;
+    font-size: 0.875em;
+    height: 1.625em;
+    padding: $gap-small $gap-medium;
+}
+
+.side__nav__list__items {
+    align-items: center;
+    display: flex;
+    margin: $gap-small 0;
+    i {
+        color: $Gray-Text;
+    }
+    a {
+        color: $Black-Text;
+        margin-left: $gap-small;
+        text-decoration: none;
+    }
+    &:hover {
+        cursor: pointer;
+        background-color: $Dark-Gray;
+    }
+    .notification__circle {
+        background-color: #dc8383;
+        border-radius: 50%;
+        color: $White;
+        font-size: 0.625em;
+        margin-left: $gap-medium;
+        text-align: center;
+        width: 0.875em;
+    }
+}
+
+input[type="search"] {
+    border: none;
+    box-shadow: 0 2px $Dark-Gray;
+    color: $Black-Text;
+    font-family: FontAwesome;
+    font-weight: bold;
+    width: 100%;
+}
+
+.active {
+    background-color: $Dark-Gray;
+}

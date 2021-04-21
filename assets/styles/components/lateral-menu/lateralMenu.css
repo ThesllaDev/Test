@@ -113,4 +113,70 @@
 .fa-arrow-left:hover {
   background-color: #e1e7e9;
 }
+
+.side__nav {
+  margin-top: 0.5em;
+}
+
+.side__nav__list {
+  font-weight: 500;
+  list-style: none;
+}
+
+.side__nav__list__items,
+input[type="search"] {
+  border-radius: 0.5em;
+  font-size: 14px;
+  height: 26px;
+  padding: 0.5em 0.9375em;
+  width: 100%;
+}
+
+.side__nav__list__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0.5em 0;
+}
+
+.side__nav__list__items i {
+  color: #8499a2;
+}
+
+.side__nav__list__items a {
+  color: #5d6c72;
+  margin-left: 0.5em;
+  text-decoration: none;
+}
+
+.side__nav__list__items:hover {
+  cursor: pointer;
+  background-color: #e1e7e9;
+}
+
+.side__nav__list__items .notification__circle {
+  background-color: #DC8383;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  width: 14px;
+  margin-left: 0.9375em;
+}
+
+input[type="search"] {
+  border: none;
+  -webkit-box-shadow: 0 2px #e1e7e9;
+          box-shadow: 0 2px #e1e7e9;
+  color: #5d6c72;
+  font-family: FontAwesome;
+  font-weight: bold;
+}
+
+.active {
+  background-color: #e1e7e9;
+}
 /*# sourceMappingURL=lateralMenu.css.map */
