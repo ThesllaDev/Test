@@ -1,3 +1,5 @@
+@import "standardStyles";
+
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -5,9 +7,12 @@
 }
 
 body {
+    background-color: $Light-Gray;
+    color: $Black-Text;
+    display: flex;
     font-family: 'Red Hat Display', sans-serif;
     line-height: 1.5;
 }
 
-@import "standardStyles";
 @import "components/lateral-menu/LateralMenu";
+@import "components/main-content/MainContent";

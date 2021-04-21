@@ -1,0 +1,60 @@
+.header__main__content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0.5em;
+}
+
+.main__title {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fa-star {
+  border: 3px solid #8499a2;
+  border-radius: 50%;
+  color: #8499a2;
+  font-size: 14px;
+  margin-right: 0.9375em;
+  padding: 0.5em;
+}
+
+.others__users {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 300px;
+}
+
+.others__users__img {
+  min-width: 150px;
+}
+
+.number__of__others__users {
+  color: #8499a2;
+  margin: 0 0.9375em;
+}
+
+.user__img {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin-left: -15px;
+  width: 35px;
+}
+/*# sourceMappingURL=MainContentHeader.css.map */
