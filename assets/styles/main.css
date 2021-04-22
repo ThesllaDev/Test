@@ -329,6 +329,7 @@ input[type="search"] {
   border-radius: 0.5em;
   -webkit-box-shadow: 0 2px #e1e7e9;
           box-shadow: 0 2px #e1e7e9;
+  cursor: move;
   padding: 15px 15px 15px 30px;
   height: 200px;
   display: -webkit-box;
@@ -370,6 +371,12 @@ input[type="search"] {
 .date {
   color: #8499a2;
   font-size: 10px;
+}
+
+.is-dragging {
+  opacity: 0.6;
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
 }
 
 .btn__new__card {

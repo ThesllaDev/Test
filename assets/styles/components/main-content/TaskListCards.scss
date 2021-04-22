@@ -10,6 +10,7 @@
     background-color: $White;
     border-radius: $gap-small;
     box-shadow: 0 2px $Dark-Gray;
+    cursor: move;
     padding: 15px 15px 15px 30px;
     height: 200px;
     display: flex;
@@ -42,4 +43,9 @@
 .date {
     color: $Gray-Text;
     font-size: 10px;
+}
+
+.is-dragging {
+    opacity: 0.6;
+    transform: rotate(5deg);
 }
