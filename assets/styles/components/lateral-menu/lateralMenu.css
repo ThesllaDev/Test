@@ -21,7 +21,7 @@
 
 .progress__bar {
   border-radius: 50%;
-  background-color: #2AC29B;
+  background-color: #2ac29b;
   height: 3.125em;
   position: relative;
   width: 3.125em;
@@ -61,7 +61,7 @@
 }
 
 .gt-50 .bar__progress .bar__progress--fill {
-  background: #2AC29B;
+  background: #2ac29b;
   clip: rect(0, 3.125em, 3.125em, 1.5625em);
 }
 
@@ -179,4 +179,4 @@ input[type="search"] {
 .active {
   background-color: #e1e7e9;
 }
-/*# sourceMappingURL=lateralMenu.css.map */
+/*# sourceMappingURL=LateralMenu.css.map */

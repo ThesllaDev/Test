@@ -15,7 +15,6 @@ $size: 3.125em;
 .lateral__menu__header {
     align-items: center;
     display: flex;
-    justify-content: flex-start;
     width: 190px;
 }
 
@@ -77,11 +76,24 @@ $size: 3.125em;
     }
 }
 
-.fa-arrow-left {
-    align-self: flex-start;
-    margin: $gap-small 0 0 $gap-large;
+.btn__close__side__menu,
+.btn__open__side__menu {
+    border: none;
+    color: $Gray-Text;
     cursor: pointer;
     &:hover {
         background-color: $Dark-Gray;
     }
+}
+
+.btn__close__side__menu {
+    align-self: flex-start;
+    margin: $gap-small 0 0 2.5em;
+}
+
+.btn__open__side__menu {
+    background-color: transparent;
+    height: 50px;
+    padding: $gap-medium;
+    margin: $gap-medium;
 }

@@ -30,15 +30,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
   width: 190px;
 }
 
 .progress__bar {
   border-radius: 50%;
-  background-color: #2AC29B;
+  background-color: #2ac29b;
   height: 3.125em;
   position: relative;
   width: 3.125em;
@@ -78,7 +75,7 @@ body {
 }
 
 .gt-50 .bar__progress .bar__progress--fill {
-  background: #2AC29B;
+  background: #2ac29b;
   clip: rect(0, 3.125em, 3.125em, 1.5625em);
 }
 
@@ -120,15 +117,29 @@ body {
   font-weight: 400;
 }
 
-.fa-arrow-left {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  margin: 0.5em 0 0 1.875em;
+.btn__close__side__menu,
+.btn__open__side__menu {
+  border: none;
+  color: #8499a2;
   cursor: pointer;
 }
 
-.fa-arrow-left:hover {
+.btn__close__side__menu:hover,
+.btn__open__side__menu:hover {
   background-color: #e1e7e9;
+}
+
+.btn__close__side__menu {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: 0.5em 0 0 2.5em;
+}
+
+.btn__open__side__menu {
+  background-color: transparent;
+  height: 50px;
+  padding: 0.9375em;
+  margin: 0.9375em;
 }
 
 .side__nav {
