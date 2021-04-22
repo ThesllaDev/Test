@@ -1,0 +1,13 @@
+@import "../../../styles/standardStyles";
+
+.btn__new__card {
+    border: none;
+    background-color: $Dark-Gray;
+    border-radius: $gap-small;
+    color: #8499a2;
+    cursor: pointer;
+    font-weight: 600;
+    height: 30px;
+    width: 100%;
+    margin-bottom: $gap-medium;
+}

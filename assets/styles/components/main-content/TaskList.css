@@ -82,4 +82,16 @@
   color: #8499a2;
   font-size: 10px;
 }
+
+.btn__new__card {
+  border: none;
+  background-color: #e1e7e9;
+  border-radius: 0.5em;
+  color: #8499a2;
+  cursor: pointer;
+  font-weight: 600;
+  height: 30px;
+  width: 100%;
+  margin-bottom: 0.9375em;
+}
 /*# sourceMappingURL=TaskList.css.map */
