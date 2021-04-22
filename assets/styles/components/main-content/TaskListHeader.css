@@ -1,0 +1,20 @@
+.list__wrapper__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0.5em;
+}
+
+.subtitle {
+  color: #8499a2;
+  font-size: 0.9375em;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+/*# sourceMappingURL=TaskListHeader.css.map */

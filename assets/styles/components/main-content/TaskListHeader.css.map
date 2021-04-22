@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,sBAAsB,CAAC;EACnB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;EACnB,aAAa,ECEL,KAAK;CDDhB;;AAED,AAAA,SAAS,CAAC;EACN,KAAK,ECJG,OAAO;EDKf,SAAS,ECFA,QAAQ;EDGjB,cAAc,EAAE,SAAS;EACzB,WAAW,EAAE,GAAG;CACnB",
+    "sources": [
+        "TaskListHeader.scss",
+        "../../standardStyles.scss"
+    ],
+    "names": [],
+    "file": "TaskListHeader.css"
+}

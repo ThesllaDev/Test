@@ -1,0 +1,15 @@
+@import "../../../styles/standardStyles";
+
+.list__wrapper__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: $gap-small;
+}
+
+.subtitle {
+    color: $Gray-Text;
+    font-size: $gap-medium;
+    text-transform: uppercase;
+    font-weight: 900;
+}
