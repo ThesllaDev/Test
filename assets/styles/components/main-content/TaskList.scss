@@ -1,0 +1,13 @@
+@import "../../../styles/standardStyles";
+
+.task__list {
+    display: flex;
+}
+
+.list__wrapper {
+    margin: $gap-medium;
+    width: 370px;
+}
+
+@import "../../../styles/components/main-content/TaskListHeader";
+@import "../../../styles/components/main-content/TaskListCards";

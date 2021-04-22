@@ -164,7 +164,7 @@ input[type="search"] {
   font-size: 0.625em;
   margin-left: 0.9375em;
   text-align: center;
-  width: 0.875em;
+  width: 15px;
 }
 
 input[type="search"] {
@@ -180,4 +180,4 @@ input[type="search"] {
 .active {
   background-color: #e1e7e9;
 }
-/*# sourceMappingURL=lateralMenu.css.map */
+/*# sourceMappingURL=LateralMenu.css.map */

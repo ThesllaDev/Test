@@ -27,16 +27,27 @@
     justify-content: center;
     width: 300px;
 }
+
 .others__users__img {
     min-width: 150px;
 }
-.number__of__others__users {
-    color: $Gray-Text;
-    margin: 0 $gap-medium;
-}
+
 .user__img {
     border: 2px solid $White;
     border-radius: 50%;
     margin-left: -15px;
     width: 35px;
+}
+
+.number__of__others__users {
+    color: $Gray-Text;
+    margin: 0 $gap-medium;
+}
+
+.btn__options {
+    border: none;
+    background-color: transparent;
+    color: $Gray-Text;
+    cursor: pointer;
+    font-size: 20px;
 }
