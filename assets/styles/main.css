@@ -18,11 +18,9 @@ body {
 .lateral__menu {
   background-color: #edf1f2;
   color: #5d6c72;
-  height: 100%;
   min-height: 100vh;
   padding: 0.9375em;
   margin-right: 15px;
-  width: 260px;
 }
 
 .lateral__menu__header {
@@ -35,6 +33,7 @@ body {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  width: 190px;
 }
 
 .progress__bar {
@@ -146,7 +145,7 @@ input[type="search"] {
   border-radius: 0.5em;
   font-size: 0.875em;
   height: 1.625em;
-  padding: 0.5em 0.9375em;
+  padding: 0.9375em;
 }
 
 .side__nav__list__items {

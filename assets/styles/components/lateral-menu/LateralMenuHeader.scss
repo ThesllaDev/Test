@@ -1,6 +1,6 @@
 @import "../../../styles/standardStyles";
 
-$color-Progress: #2AC29B;
+$color-Progress: #2ac29b;
 $size: 3.125em;
 @mixin circle($size) {
     border-radius: 50%;
@@ -16,6 +16,7 @@ $size: 3.125em;
     align-items: center;
     display: flex;
     justify-content: flex-start;
+    width: 190px;
 }
 
 .progress__bar {
@@ -28,6 +29,7 @@ $size: 3.125em;
         background-color: $Dark-Gray;
     }
 }
+
 .bar__progress {
     @include circle($size);
     clip: rect(0, $size, $size, #{$size/2});
@@ -45,6 +47,7 @@ $size: 3.125em;
         }
     }
 }
+
 .progress__bar--img {
     @include circle(#{$size/1.15});
     background: $White;
@@ -55,6 +58,7 @@ $size: 3.125em;
         font-size: 2em;
     }
 }
+
 .progress__bar--img--wrapper {
     display: table-cell;
     vertical-align: middle;

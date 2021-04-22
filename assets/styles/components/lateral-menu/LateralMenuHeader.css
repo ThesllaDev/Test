@@ -8,11 +8,12 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  width: 190px;
 }
 
 .progress__bar {
   border-radius: 50%;
-  background-color: #2AC29B;
+  background-color: #2ac29b;
   height: 3.125em;
   position: relative;
   width: 3.125em;
@@ -52,7 +53,7 @@
 }
 
 .gt-50 .bar__progress .bar__progress--fill {
-  background: #2AC29B;
+  background: #2ac29b;
   clip: rect(0, 3.125em, 3.125em, 1.5625em);
 }
 

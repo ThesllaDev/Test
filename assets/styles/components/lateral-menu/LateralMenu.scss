@@ -3,11 +3,9 @@
 .lateral__menu {
     background-color: $Gray;
     color: $Black-Text;
-    height: 100%;
     min-height: 100vh;
     padding: $gap-medium;
     margin-right: 15px;
-    width: 260px;
 }
 
 @import "../../../styles/components/lateral-menu/LateralMenuHeader";
