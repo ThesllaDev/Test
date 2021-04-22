@@ -7,3 +7,17 @@ $(function () {
     }
     $('.bar__progress--fill').css('transform', 'rotate(' + deg + 'deg)');
 });
+
+const sideBar = document.querySelector('.lateral__menu');
+const btnOpenSideBar = document.querySelector('.btn__open__side__menu');
+btnOpenSideBar.style.display = "none"
+
+function openSideBar() {
+    sideBar.style.display = "block";
+    btnOpenSideBar.style.display = "none";
+}
+
+function closeSideBar() {
+    sideBar.style.display = "none";
+    btnOpenSideBar.style.display = "block";
+}
